@@ -1,0 +1,62 @@
+#id1{
+    color: green;
+    text-indent: 3cm;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.c1{
+    background-color: green;
+}
+.c2{
+    background-color: yellow;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-family: normal;
+    font-size: 150%;
+}
+#id2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.c3{
+    text-align: left;
+}
+#id3::first-line{
+    color: green;
+    font-style: italic;
+
+}
+::selection{
+    color:grey;
+}
+li{
+    color: green;
+    font-size: 30px;
+}
+#name:active{
+    background-color: green;
+}
+#pass:hover{
+    font-size: 50px;
+
+}
+#bold:hover{
+    font-weight: bold;
+}
+#label:active{
+    background-color:blue;
+}
+#name1:hover{
+    background-color: yellow;
+}
+#pass2:hover{
+    background-color: pink;
+
+}
+#blue:hover{
+    color: blue;
+}
+.red:active{
+    color: red;
+}

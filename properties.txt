@@ -1,0 +1,279 @@
+---------------------------------------------text properties:----------------------------------------------------
+1. color
+
+2. text align
+
+3. text indent
+
+4.
+text-trasnform: none ,capitalize , uppercase ,lowercase
+
+5.
+text-decoration:none, unerline , overline , line through , unerline overline
+
+6.letter spacing
+
+7. word spacing
+
+8.line height
+
+9.
+text shadow: h-shadow, v-shadow , blur , color
+                2px     2px        5px    red
+
+
+------------------------------------font property-----------------------------------------------------------------
+
+1.
+font family
+2.
+font-size
+3.
+font-style : normal , italic
+4.
+font-weight: bold , lighter , 100.....900
+5.
+font-variant: normal , small-caps
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- border -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1.
+border-style: name , solid , dashed  ,  dotted , double
+
+2. 
+boder-width
+
+3.
+border-color
+
+4.
+boder-top
+
+5.
+border-bottom
+
+6.
+border-left
+
+7.
+boder-right
+
+8.
+border-radius: value
+
+shorthand:
+ border: width  style   color
+          1px   solid   blue
+
+
+
+
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- BOX SIZING -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+
+
+content-box: only for the content width 
+
+border-box: width includes padiing and border both 
+
+box shadow: h-shadow, v-shadow , blur , color
+                2px     2px        5px    red
+
+
+
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- BACKGROUND PROPERTIES -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1. background-color
+2. background-image ----- url(path)
+3. background-repeat ------ repeat-x , repeat-y , no repeat , repeat
+4. background-position --------- top , bottom ,left, right , center , x% , y% 
+5. background-size -----------------  auto , cover , conatin , width , height 
+6. background-attachment ----------   scroll , fixed
+7. background- clip ------------    border box , padding box , content box
+8. shorthand --------------  background: [color][image][repeat][position][size][attachment]
+
+
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- pseudo class -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+************************************* IMPORTANT FOR DESCRIPTIVE QUESTIONS***************************
+
+1. :hover
+2. :active
+3. :focus
+4. :link/visited
+5. :nth-child(a)
+6. :not(.special)
+
+syntax:
+selector: pseudo class
+{
+    property:value
+}
+for example:
+h1:hover{
+    height:100px 
+}
+
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- pseudo elements -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+************************************* IMPORTANT FOR DESCRIPTIVE QUESTIONS***************************
+
+1.fist-line
+2.first-letter
+3.before
+4.after
+5.marker
+6.selection
+
+syntax:
+selector::pseudo-element
+{
+    property:value
+}
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- css positioning -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1.position : static , relative , absolute , fixed , sticky
+2.top
+3.bottom
+4.left
+5.right
+6.z-index
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- 2D TRANSFORMATIONS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1. 
+translate(x,y)
+translate(x)
+translate(y)
+
+2.
+rotate(deg)
+rotate(-deg)
+
+3.
+scale(x,y)
+scalex(n)
+scaley(n)
+
+4.
+skew(x,y)
+skewx(angle)
+skewy(angle)
+    
+5.FLIP AN IMAGE:
+scalex(-1)
+syntax: transform: property (value)
+
+NOTE: USED ONLY ON HOVER
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- TRANSITION -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+************************************* IMPORTANT FOR DESCRIPTIVE QUESTIONS***************************
+
+1. transition-property
+2. transition-durtaion
+3. transition-delay
+4. transition-timing-function:
+            liner,ease,ease-in,ease-out,ease-in-out
+5. shorthand:
+        property:property duration
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- ANIMATIONS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+************************************* IMPORTANT FOR DESCRIPTIVE QUESTIONS***************************
+
+1. animation-name
+2. animation-duration
+3. animation-delay
+4. animation-timing-function
+                ( linear , ease ,ease-in , ease-out , ease-in-out)
+
+5. animation-iteartion-count
+6. animation-direction   : normal , reverse , alternate , alternate-reverse
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- GRADIENT -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+************************************* IMPORTANT FOR DESCRIPTIVE QUESTIONS***************************
+
+1. linear gradient 
+2. radial gradient 
+3. conic gradient 
+ 
+syntax:
+    background-image: linear-gradient(color1.color2)
+        direction: to top    , to top left
+                   to bottom , to top right
+                   to left   , to bottom left
+                   to right  , to bottom right
+                
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- MEDIA QUERIES -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+USED APPLY CONDITIONALS STYLES BASED ON USER'S DEVOCE SCREEN SIZE AND ORIENTATION 
+
+syntax:
+    @media not|only mediatype and(mediafeatures)
+    {
+        css rules
+    }
+
+--> media type : screeen , all
+--> logical operators :- not , and , or , only 
+
+--> media features 
+    1.width and height 
+    2.orientation : landscape , portcut
+
+example:
+    @media only screen and (min-width:500px)
+    {
+        body{
+            background-color:lightblue;
+        }
+    }
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- MULTI COLUMN -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1.column-count
+2.column-gap
+3.column-rule
+4.column-rule - color
+5.column-rule - width
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- IMAGE STYLE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+1. rounded image
+2.Thumbnail image
+3.transparent image
+4.Responsive image 
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- VARIABLE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+--> variable is defined using two dashes (--)
+--> var() fn is used to take value of 
+--> to declare global variable (:root) selectors is used
+
+syntax:
+    global variable
+        :root 
+        {
+            --b:blue
+        }
+        use of variable 
+        p{
+            color: var(--b)
+        }
+    local variable
+    p{
+        --b:blue
+        color:var(--b)
+    }

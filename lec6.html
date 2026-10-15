@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERIES</title>
+    <style>
+        body{
+            background-color:lightblue;
+        }
+
+        /* @media screen and (min-width:500px)
+        {
+            body{
+                background-color:orange;
+                }
+        } */
+
+        /* @media only screen and (min-width:400px) and (max-width:1024px)
+        {
+            body{
+            background-color:pink;
+                }
+        } */
+
+        /* @media screen and (orientation: landscape)
+        {
+            body{
+                background-color:orange;
+                }
+        } */
+
+        @media screen and not (orientation: portrait)
+        {
+            body{
+                background-color:orange;
+                }
+        }
+
+          @media only screen and (orientation: portrait)
+        {
+            body{
+            background-color:pink;
+                }
+        }
+        .t1{
+            width: 50%;
+            background-color: blue;
+            height: 300px;
+        }
+        .t2{
+            width: 50%;
+            background-color: green;
+            height: 300px;
+        }
+        @media (orientation: portrait)
+        {
+            .t1{
+                background-color: green;
+            }
+            .t2{
+                background-color: blue;
+            }
+        }
+        div{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum suscipit facere esse obcaecati laboriosam est consequatur? Cumque vitae tempora nam, eligendi minima assumenda sit excepturi quas, dolores porro dolorem exercitationem unde nihil perferendis ipsam minus at? Est eos totam officia! Illum, ab atque, facere optio ad incidunt voluptate blanditiis unde non nisi ipsa officiis sapiente modi. Amet repellendus est odio dolores ipsam, quae magnam veritatis eveniet. Ea ullam tempora animi, eveniet praesentium doloribus voluptatum optio non veniam provident voluptate inventore qui odio perferendis nam omnis accusantium suscipit alias hic nostrum, aliquam cum. Temporibus, dolorum. Ex suscipit voluptas animi deserunt excepturi!</p>
+     -->
+    <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- PB QUES:298 -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -->
+<div>
+    <table border="1px" class="t1">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table border="1px" class="t2">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

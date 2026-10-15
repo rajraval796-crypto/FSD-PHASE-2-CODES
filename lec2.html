@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEC2</title>
+    <style>
+        h1{
+            border: 3px solid red;
+            padding: auto;
+            margin: 50vh;
+            width: auto;
+            height: auto;
+        }
+
+        .box1{
+            width: 300px;
+            height: 150px;
+            padding: 20px;
+            margin: 30px auto;
+            border: 4px solid teal;
+            box-shadow: 5px 5px 15px grey;
+            background-color:  yellow;
+            text-align: center;
+        }
+        .box2{
+            width: 300px;
+            height: 150px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 4px solid purple;
+            box-sizing: border-box;
+            box-shadow: 5px 5px  15px  grey;
+            background-color: pink;
+            text-align: center;
+        }
+        .c1{
+            background-color: aqua;
+            background-image: url(fl3.jpg);
+            height: 1000px;
+            width: 1000px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-clip: content-box;
+        }
+        a:link{
+            color: red;
+        } 
+        a:visited{
+            color: green;
+        }
+        a:active{
+            color: pink;
+        }
+        #id1{
+            height: 200px;
+            width: 200px;
+            border: 3px solid red;
+        }
+        #id1:hover{
+            height: 400px;
+            width: 300px;
+            background-color: green;
+        }
+        button{
+            background-color: blue;
+            color: white;
+
+        }
+        button:active{
+            background-color: white;
+            color: blue;
+            border: 1px solid lightblue;
+
+        }
+        button:hover{
+            color: yellow
+
+        }
+        input:focus{
+            background-color: maroon;
+        }
+        ul li:nth-child(2){
+            color:red;
+            font-weight: bold;
+
+        }
+        ul li:not(.special){
+            background-color: aqua;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HELLO</h1>
+    
+    <div class="box1"> BOX WITH CONTENT BOX SIZING </div>
+    <div class="box2"> BOX WITH BORDER BOX SIZING </div>
+    <div class="c1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi quidem optio quia? Quaerat velit asperiores culpa ipsa voluptatum harum, rem cupiditate dolorem quae eligendi minus blanditiis, id dolores necessitatibus consequatur earum, omnis vero amet et repudiandae maxime iste. Omnis illo labore cupiditate deleniti, porro et obcaecati? Eos possimus odit autem nulla porro nisi. Aperiam enim id quo repellendus ipsum recusandae unde cupiditate voluptatem beatae iure, exercitationem alias optio reprehenderit, totam adipisci asperiores cum ut fuga. Animi doloremque praesentium non cumque eum nihil voluptas molestias, ipsa, numquam quis dicta quos, ab recusandae deserunt culpa labore quaerat maiores. Libero nisi commodi porro tempore! Tenetur aut delectus eum accusantium? Tempore ipsam perferendis neque iste, adipisci velit, cum ratione eius similique illum quae. Suscipit, magni id vitae fugit provident voluptatibus illum repellendus eveniet nulla minima ipsa iusto quos ut unde odit omnis alias dolorem quidem asperiores aliquid nisi nemo, consectetur cumque. Ut rem incidunt enim perferendis est voluptatum harum earum blanditiis neque! Harum voluptatum vero, laboriosam sapiente aliquam culpa vitae quas fuga! Vitae architecto quae, consequuntur quasi reprehenderit tempore non, assumenda eligendi, magnam amet eos nulla dolor dolore atque cum omnis aliquam iusto velit praesentium molestias! Ipsam ullam accusamus impedit modi ut quo fugit?</div>
+    <a href="https://www.google.com"> google </a>
+    <h1 id="id1"> APPLY HOVER PSEUDO CLASS EFFECT </h1>
+
+    <button> click here </button>
+    NAME:<input type="text">
+    <ul>
+        <li> MANGO</li>
+        <li> BANANA</li>
+        <li> APPLE</li>
+        <li> KIWI</li>
+        <li clas="special"> GRAPES</li>
+        <li> BLUEBERRY</li>
+    </ul>
+
+</body>
+</html>
