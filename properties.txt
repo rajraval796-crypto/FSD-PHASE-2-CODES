@@ -207,7 +207,7 @@ NOTE: USED ONLY ON HOVER
 
 1. linear gradient 
 2. radial gradient 
-3. conic gradient 
+3. conic  gradient 
  
 syntax:
     background-image: linear-gradient(color1.color2)
@@ -277,3 +277,13 @@ syntax:
         --b:blue
         color:var(--b)
     }
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- GRID -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+display: inline,block,inline block , none , grid 
+
+1.grid-template-columns
+2.grid-template-rows
+3.gap
+4.grid-column
+5.grid-row
+

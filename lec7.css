@@ -1,0 +1,16 @@
+.grid1{
+    display:grid;
+    grid-template-columns: 200px 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    gap:10px;
+    background-color: gray;
+    padding:10px;
+    margin-bottom: 40px;
+}
+
+.item{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
