@@ -13,7 +13,7 @@ text-decoration:none, unerline , overline , line through , unerline overline
 
 6.letter spacing
 
-7. word spacing
+7.word spacing
 
 8.line height
 
@@ -184,7 +184,7 @@ NOTE: USED ONLY ON HOVER
 4. transition-timing-function:
             liner,ease,ease-in,ease-out,ease-in-out
 5. shorthand:
-        property:property duration
+        property:property duration timing-function delay
 
 -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- ANIMATIONS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
